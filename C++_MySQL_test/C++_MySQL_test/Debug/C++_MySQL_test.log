@@ -1,0 +1,21 @@
+﻿  test.c
+c:\users\hsm99\source\repos\c++_mysql_test\c++_mysql_test\test.c(25): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+  c:\users\hsm99\source\repos\c++_mysql_test\c++_mysql_test\test.c(25): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 3개 필요하지만 2개가 제공되었습니다.
+  c:\users\hsm99\source\repos\c++_mysql_test\c++_mysql_test\test.c(25): note: 누락된 variadic 인수 3이(가) 서식 문자열 '%d'에 필요합니다.
+c:\users\hsm99\source\repos\c++_mysql_test\c++_mysql_test\test.c(32): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+  c:\users\hsm99\source\repos\c++_mysql_test\c++_mysql_test\test.c(32): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 3개 필요하지만 2개가 제공되었습니다.
+  c:\users\hsm99\source\repos\c++_mysql_test\c++_mysql_test\test.c(32): note: 누락된 variadic 인수 3이(가) 서식 문자열 '%d'에 필요합니다.
+c:\users\hsm99\source\repos\c++_mysql_test\c++_mysql_test\test.c(43): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\users\hsm99\source\repos\c++_mysql_test\c++_mysql_test\test.c(43): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 3개 필요하지만 4개가 제공되었습니다.
+test.obj : error LNK2019: _mysql_errno@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+test.obj : error LNK2019: _mysql_error@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+test.obj : error LNK2019: _mysql_init@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+test.obj : error LNK2019: _mysql_real_connect@32 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+test.obj : error LNK2019: _mysql_select_db@8 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+test.obj : error LNK2019: _mysql_query@8 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+test.obj : error LNK2019: _mysql_store_result@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+test.obj : error LNK2019: _mysql_free_result@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+test.obj : error LNK2019: _mysql_fetch_row@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+test.obj : error LNK2019: _mysql_close@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+C:\Program Files\MySQL\MySQL Server 8.0\lib\libmysql.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\hsm99\source\repos\C++_MySQL_test\Debug\C++_MySQL_test.exe : fatal error LNK1120: 10개의 확인할 수 없는 외부 참조입니다.
